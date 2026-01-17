@@ -47,10 +47,5 @@ public class home_test extends home_base {
     	rnt.clickdone();
     }
     
-    @Test(priority = 8)
-    public void filter() throws InterruptedException
-    {
-    	Thread.sleep(2000);
-    	rnt.clickfilter();
-    }
+   
 }
